@@ -1,5 +1,5 @@
 """
-Model Build Script
+Model build script
 """
 
 import os

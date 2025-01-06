@@ -1,6 +1,5 @@
 """
-Data Processing Script:
-    adjust file paths as needed
+Data processing script
 """
 import pandas as pd
 import numpy as np
