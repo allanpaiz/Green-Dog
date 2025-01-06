@@ -67,3 +67,18 @@ def rename_columns(plays, player_play, players, tracking):
                              'o': 'orientation', 'dir': 'direction'}, inplace=True)
 
     return plays, player_play, players, tracking
+
+play_cols = ['frameid', 'frame_type', 'score_diff', 'quarter', 'down', 'game_clock', 'yards_for_first', 'yards_to_endzone']
+player_cols = ['position_enc', 'x_rel_ball', 'y_rel_ball', 'sx', 'sy', 'orientation_std', 'distance_to_ball']
+team_cols = [
+    'o_x_1', 'o_y_1','o_sx_1','o_sy_1','o_orien_1','o_dist_1',
+    'o_x_2', 'o_y_2','o_sx_2','o_sy_2','o_orien_2','o_dist_2',
+    'o_x_3', 'o_y_3','o_sx_3','o_sy_3','o_orien_3','o_dist_3',
+    'o_x_4', 'o_y_4','o_sx_4','o_sy_4','o_orien_4','o_dist_4',
+    'o_x_5', 'o_y_5','o_sx_5','o_sy_5','o_orien_5','o_dist_5',
+    'o_x_6', 'o_y_6','o_sx_6','o_sy_6','o_orien_6','o_dist_6',
+    'o_x_7', 'o_y_7','o_sx_7','o_sy_7','o_orien_7','o_dist_7',
+    'o_x_8', 'o_y_8','o_sx_8','o_sy_8','o_orien_8','o_dist_8',
+    'o_x_9', 'o_y_9','o_sx_9','o_sy_9','o_orien_9','o_dist_9',
+    'o_x_10','o_y_10','o_sx_10','o_sy_10','o_orien_10','o_dist_10'
+]
